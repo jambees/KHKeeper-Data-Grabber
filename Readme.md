@@ -86,3 +86,5 @@ Final crontab list example:
 ```
 
 The above schedules cover KH Keeper measurements at 5am, 8am, 11am, 2pm, 5pm and 11pm with enough time for the measurement and a re-measurement if necessary.
+
+**Final note - Please be responsible with how frequently you make calls to the Reef Factory website. Only make the bare minimum calls you need to achieve your goals.**
