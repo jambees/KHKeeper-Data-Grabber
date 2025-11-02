@@ -58,7 +58,7 @@ KH_VALUE_DIV_ID="rfkh01KhValue" - This is how my KH value appears on my KH Keepe
 ## Testing
 Test script manually first:
 ```
-pyhton3 scrape-mqtt.py
+python3 scrape-mqtt.py
 ```
 
 It should print some progress status messages at each step. If there are errors, try to use the status messages to see where the script got to before it broke to give a clue as to where the problem may be. It's quite likely it'll be something wrong in your .env file.
