@@ -278,5 +278,15 @@ The above schedules cover KH Keeper measurements at 5am, 8am, 11am, 2pm, 5pm and
 
 Save and exit
 
+## Automating the Manual Test button to start a measurement immediately
+
+You will need to use this snippet of code in a file very similar to the scrape script. Just replace the section that gets the KH value with this code
+
+```
+    time.sleep(2)
+    print("Clicking Measurement button")
+    driver.execute_script("frameComponent.measurementTakeNow();")
+    print("Measure Now button clicked")
+```
 
 ## Final note - Please be responsible with how frequently you make calls to the Reef Factory website. Only make the bare minimum calls you need to achieve your goals.
